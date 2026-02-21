@@ -70,5 +70,26 @@ public class Operators {
 //      a < b
 //      a <= b
 //      a >= b
+
+//        *************************************************************************
+
+//        Logical Operators
+//        *************************************************************************
+
+//        &&
+//        ||
+//        !
+
+        int c = 56;
+        int d = 32;
+
+        if(c>50 && d>50){
+            System.out.println("Both Numbers are greater than 50");
+        } else if (c>50 || d>50) {
+            System.out.println("Only one Number is greater than 50");
+        }
+        else{
+            System.out.println("Both are less than  50");
+        }
     }
 }
