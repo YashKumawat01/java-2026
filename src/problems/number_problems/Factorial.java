@@ -1,6 +1,8 @@
 package problems.number_problems;
 
+import java.util.*;
 import java.util.Scanner;
+import java.math.BigInteger;
 
 public class Factorial {
 
@@ -18,21 +20,21 @@ public class Factorial {
             System.out.println("Sorry No Negative Number Allowed :(");
             return;
         }
+//
+//        int fact = 1;
+//
+//        for (int i=1;i<=num;i++){
+//            fact=i*fact;
+//        }
 
-        int fact = 1;
 
-        for (int i=1;i<=num;i++){
-            fact=i*fact;
-        }
-
-        /*
         // Edge case safe solution using BigInteger
         BigInteger fact = BigInteger.ONE;
 
         for (int i = 1; i <= num; i++) {
             fact = fact.multiply(BigInteger.valueOf(i));
         }
-        */
+
 
         System.out.println("Factorial of "+num+" is "+fact);
     }
